@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": "2",
+      "description": "dfront",
+      "type": "income",
+      "category": "Compra",
+      "price": 9800,
+      "createdAt": "2024-03-28T00:53:54.632Z"
+    },
+    {
+      "id": "3",
+      "description": "Serviço de Design",
+      "type": "income",
+      "category": "Serviços",
+      "price": 2500,
+      "createdAt": "2024-03-28T00:53:54.632Z"
+    },
+    {
+      "id": "482a",
+      "description": "futebol",
+      "category": "entretenimento",
+      "price": 2000,
+      "type": "outcome",
+      "createdAt": "2024-03-29T11:12:37.160Z"
+    },
+    {
+      "id": "7188",
+      "description": "Televisão",
+      "category": "Venda",
+      "price": 2000,
+      "type": "income",
+      "createdAt": "2024-04-02T08:52:44.599Z"
+    }
+  ]
+}

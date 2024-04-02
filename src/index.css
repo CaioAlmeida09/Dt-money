@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: #202024;
+}
+
+td {
+  padding: 1.25rem 4rem;
+  background: #29292e;
+  &:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  &:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+tbody {
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+button {
+  color: #00b37e;
+}
